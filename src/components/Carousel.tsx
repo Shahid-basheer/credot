@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Category from "./Category";
 
-const Carousel = () => {
+const Carousel: React.FC = () => {
   return (
     <Container>
       <div
@@ -24,7 +24,7 @@ const Carousel = () => {
               </div>
               <div className="col-md-5">
                 <img
-                  src="http://127.0.0.1:5500/images/banner-images/xbox.png"
+                  src="https://arif77502.github.io/panda-commerce/images/panda-commerce/banner-images/xbox.png"
                   className="d-block w-100"
                   alt="..."
                 />
